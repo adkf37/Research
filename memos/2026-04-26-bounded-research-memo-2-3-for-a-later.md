@@ -2,7 +2,7 @@
 
 **Date:** 2026-04-26  
 **Output Type:** research_memo  
-**Source Prompt:** Bounded research memo 2/3 for a later synthesis brief. Parent prompt: Federal and State Responsibilty Swap Proposal - Have federal government assume state and local pension debt (create Pension Benefit Guarantee Corp) in exchange for eliminating state/local tax deduction and mortgage interest deduction. Could include sales tax vs. VAT swap element as well. Swap State and Local Medicaid responsibility (approx $200 billion) for Prek starting at age 3 in every school district in Country. Get rid of Head Start ($10 billion). Focus: Evidence memo: legal, governance, implementation, political feasibility, and counterarguments.
+**Source Prompt:** Bounded research memo 2/3 for a later synthesis brief. Parent prompt: Federal and State Responsibility Swap Proposal - Have federal government assume state and local pension debt (create Pension Benefit Guarantee Corp) in exchange for eliminating state/local tax deduction and mortgage interest deduction. Could include sales tax vs. VAT swap element as well. Swap State and Local Medicaid responsibility (approx $200 billion) for Prek starting at age 3 in every school district in Country. Get rid of Head Start ($10 billion). Focus: Evidence memo: legal, governance, implementation, political feasibility, and counterarguments.
 
 ---
 
