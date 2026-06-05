@@ -201,7 +201,7 @@ Urban rivers with variable flow (like the Anacostia, which floods during storm e
 
 ## Source Ledger
 
-Primary and institutional sources are weighted most heavily below; contractor and journalism sources are used for local detail or rough market checks only.
+Primary and institutional sources below are the evidentiary basis for cost and regulatory claims; contractor and journalism sources are used only for local detail or rough market context.
 
 | Source | Type | Why It Matters |
 |---|---|---|
@@ -271,4 +271,11 @@ For a synthesis brief on this topic, the three most important next steps are:
 
 ## Decision-Oriented Conclusion
 
-Treat **$60,000–$135,000 per 100 feet** as a planning-range midpoint for an urban non-contaminated site, and **$180,000+ per 100 feet** as the prudent range where contamination, mitigation, or full individual permitting is likely. Before design, decision-makers should (1) run a USACE pre-application meeting to confirm permit path, (2) commission site-specific contamination sampling, and (3) decide up front whether this is a **dry amenity beach** or a **future swim beach**. The key risk to watch is not sand cost; it is regulatory and water-quality uncertainty, which can dominate both capex and schedule.
+Treat **$60,000–$135,000 per 100 feet** as a planning-range midpoint for an urban non-contaminated site and **$180,000+ per 100 feet** as prudent where contamination, mitigation, or full individual permitting is likely. This range comes from the component build-up and composite scenario totals in the Analysis section above.
+
+Before design, decision-makers should:
+- run a USACE pre-application meeting to confirm permit path;
+- commission site-specific contamination sampling; and
+- decide up front whether this is a **dry amenity beach** or a **future swim beach**.
+
+The key risk to watch is not sand cost; it is regulatory and water-quality uncertainty, which can dominate both capex and schedule.
