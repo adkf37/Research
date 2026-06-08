@@ -201,18 +201,20 @@ Urban rivers with variable flow (like the Anacostia, which floods during storm e
 
 ## Source Ledger
 
+Primary and institutional sources below are the evidentiary basis for cost and regulatory claims; contractor and journalism sources are used only for local detail or rough market context.
+
 | Source | Type | Why It Matters |
 |---|---|---|
-| [Angi riprap cost data](https://www.angi.com/articles/rip-rap-cost.htm) | Consumer/contractor pricing | Primary benchmark for bank stabilization costs, the highest physical cost item |
-| [NOAA Nature-Based Solutions Cost Guide (PDF)](https://coast.noaa.gov/data/digitalcoast/pdf/nature-based-solutions-installation-maintenance.pdf) | Federal agency technical data | Authoritative range for NbS riverbank restoration costs per linear foot |
-| [biologyinsights.com / numberanalytics.com on beach nourishment](https://biologyinsights.com/is-beach-nourishment-expensive-a-look-at-the-costs/) | Industry synthesis citing USACE data | Sand nourishment cost benchmarks ($8–$20/cy USACE, $40–$70/cy small-site) |
-| [USACE Section 404 Regulatory Program](https://www.usace.army.mil/Missions/Civil-Works/Regulatory-Program-and-Permits/) | Primary regulatory authority | Defines permit pathway, costs, and timeline for any riverbank fill work |
-| [Anacostia Watershed Society State of the River Report Card 2025](https://www.anacostiaws.org/content/our-work/public-policy-and-advocacy/state-of-the-river-report-card/) | Local advocacy/monitoring data | Most current water quality summary — essential for swim use feasibility |
-| [DOEE Water Quality & Swimming](https://doee.dc.gov/service/water-quality-swimming) | Official DC regulatory source | E. coli standards and current legal status of Anacostia swimming |
-| [DC Office of Planning RFK Redevelopment Master Plan](https://planning.dc.gov/page/rfk-redevelopment-master-plan) | Official government planning | What is actually planned for the RFK riverside area |
-| [East of the River DC News: What Lies Beneath](https://eastoftheriverdcnews.com/2025/05/07/what-lies-beneath-environmental-concerns-about-development-plans-for-rfk-site/) | Local journalism with environmental sourcing | Documents contamination and environmental concerns at RFK site |
-| [Lakeshore Guys: Sand Beach Restoration](https://lakeshoreguys.com/sand-beaches-creation-restoration/) | Contractor pricing reference | Real-world professional installation costs for comparable freshwater beaches |
-| [GGWash: Anacostia swim events canceled](https://ggwash.org/view/97056/anacostia-river-cleanup-efforts-continue-after-swim-events-were-canceled-two-years-in-a-row) | Local journalism | Documents ongoing bacteria failures and canceled swim events 2023–2025 |
+| [USACE Section 404 Regulatory Program](https://www.usace.army.mil/Missions/Civil-Works/Regulatory-Program-and-Permits/) | Primary federal regulatory source | Core legal pathway for any discharge/fill work at river edges |
+| [eCFR 33 CFR Part 330 (Nationwide Permit Program)](https://www.ecfr.gov/current/title-33/chapter-II/part-330) | Federal regulation text | Binding thresholds and conditions for streamlined vs individual federal permitting |
+| [EPA 2012 Recreational Water Quality Criteria Documents](https://19january2021snapshot.epa.gov/wqc/2012-recreational-water-quality-criteria-documents_.html) | Federal technical criteria | Provides E. coli recreational thresholds used in swim-safety framing |
+| [NOAA/Coastal Management shoreline protection cost comparison (peer-reviewed dataset)](https://repository.library.noaa.gov/view/noaa/49248/noaa_49248_DS1.pdf) | Federal repository + peer-reviewed synthesis | Best single comparative cost dataset for shoreline protection methods per linear foot |
+| [DOEE Water Quality & Swimming](https://doee.dc.gov/service/water-quality-swimming) | Official DC regulatory source | Current legal status of swimming in DC waters |
+| [DC Water Clean Rivers Project](https://www.dcwater.com/cleanrivers) | Utility/operator primary source | Direct source for CSO reduction and infrastructure scale claims |
+| [Anacostia Watershed Society State of the River Report Card 2025](https://www.anacostiaws.org/content/our-work/public-policy-and-advocacy/state-of-the-river-report-card/) | Local monitoring synthesis | Most current place-specific context for Anacostia water quality constraints |
+| [DC Office of Planning RFK Redevelopment Master Plan](https://planning.dc.gov/page/rfk-redevelopment-master-plan) | Official local planning source | Baseline for likely land-use and riparian design constraints near RFK |
+| [Angi riprap cost data](https://www.angi.com/articles/rip-rap-cost.htm) | Contractor/market benchmark | Used only as a rough order-of-magnitude check for small-project pricing |
+| [GGWash: Anacostia swim events canceled](https://ggwash.org/view/97056/anacostia-river-cleanup-efforts-continue-after-swim-events-were-canceled-two-years-in-a-row) | Local journalism | Local reporting detail on timing and implementation frictions |
 
 ---
 
@@ -227,6 +229,7 @@ Urban rivers with variable flow (like the Anacostia, which floods during storm e
 | Total cost for Anacostia-type site: $143,000–$218,000 per 100 lf | **Plausible estimate, not hard data** — constructed from components; no comparable completed project found with published budget breakdown for exactly this context |
 | "Dry beach" (no swim use) avoids some regulatory triggers | **Partially supported** — if no fill enters waters of the U.S., Section 404 may not apply; but grading near a regulated waterway still likely triggers state and local review |
 | Sand replenishment needed every 2–5 years | **Reasonable professional consensus** — not formally cited; actual rate depends heavily on flow regime and storm frequency |
+| A fully itemized, completed Anacostia-adjacent 100-lf beach budget is available in public records | **Unsupported in current evidence packet** — no directly comparable public line-item budget was identified in this memo’s source set |
 
 ---
 
@@ -236,7 +239,7 @@ For a synthesis brief on this topic, the three most important next steps are:
 
 1. **Obtain a real project cost sheet from a comparable completed project.** The most useful data would be an itemized budget from a completed urban riverfront beach project (e.g., from a DC or Mid-Atlantic jurisdiction). Contacting DC Parks and Recreation, the National Park Service (who manages RFK-area federal land), or the Anacostia Waterfront Corporation directly would fill the single largest gap in this memo.
 
-2. **Verify the Section 404 permit category for a hypothetical 100-lf beach.** If the beach footprint falls under the 0.1-acre Nationwide Permit threshold (100 × 20 = 2,000 sq ft = 0.046 acres, which is under the threshold), the permitting cost drops dramatically. A pre-application consultation with the Baltimore District of the Army Corps of Engineers would resolve this quickly.
+2. **Verify the Section 404 permit category for a hypothetical 100-lf beach.** A 100 × 20-foot footprint is 2,000 sq ft (~0.046 acres), but Nationwide Permit eligibility depends on activity category, impact type, and district conditions — not footprint alone. A pre-application consultation with the Baltimore District of the Army Corps of Engineers would resolve this quickly.
 
 3. **Determine whether a "dry beach" (no swimming) or "swim beach" is the design goal.** This affects: lifeguard staffing costs (high), liability and insurance, water quality monitoring requirements (mandated for designated swim areas), and public health department approvals. The cost difference between a dry recreation beach and a regulated swim beach is likely $50,000–$200,000+ in ongoing annual costs alone.
 
@@ -253,11 +256,26 @@ For a synthesis brief on this topic, the three most important next steps are:
 - Capitol Hill Restoration Society, *The Future of the RFK Stadium Campus*. https://chrs.org/rfkstadiumcampus-chrsfeb025/
 - DC Office of Planning, *RFK Redevelopment Master Plan*. https://planning.dc.gov/page/rfk-redevelopment-master-plan
 - DOEE (DC Department of Energy & Environment), *Water Quality & Swimming in the District*. https://doee.dc.gov/service/water-quality-swimming
+- DC Water, *Clean Rivers Project*. https://www.dcwater.com/cleanrivers
+- eCFR, *33 CFR Part 330 — Nationwide Permit Program*. https://www.ecfr.gov/current/title-33/chapter-II/part-330
 - East of the River DC News, *What Lies Beneath: Environmental Concerns About Development Plans for RFK Site* (May 2025). https://eastoftheriverdcnews.com/2025/05/07/what-lies-beneath-environmental-concerns-about-development-plans-for-rfk-site/
 - GGWash, *Anacostia River cleanup efforts continue, after swim events were canceled two years in a row*. https://ggwash.org/view/97056/anacostia-river-cleanup-efforts-continue-after-swim-events-were-canceled-two-years-in-a-row
 - Lakeshore Guys, *Private Sand Beach Creation for Lakefront Property in MN & WI*. https://lakeshoreguys.com/sand-beaches-creation-restoration/
 - NOAA Digital Coast, *Nature-Based Solutions: Installation and Maintenance Costs* (PDF). https://coast.noaa.gov/data/digitalcoast/pdf/nature-based-solutions-installation-maintenance.pdf
+- NOAA Library Repository, *The Cost of Shoreline Protection: A Comparison of Approaches in Coastal New England and Mid-Atlantic Communities* (dataset PDF). https://repository.library.noaa.gov/view/noaa/49248/noaa_49248_DS1.pdf
 - Sierra Club DC, *RFK Site: A Vision for Environmental and Community Health*. https://www.sierraclub.org/dc/rfk
 - TT&C Beaches, *How to Build a Lakefront Beach: DIY Guide*. https://www.beachinaday.com/diy-build-a-shoreline-beach/
+- U.S. EPA, *2012 Recreational Water Quality Criteria Documents*. https://19january2021snapshot.epa.gov/wqc/2012-recreational-water-quality-criteria-documents_.html
 - U.S. Army Corps of Engineers, *Regulatory Program and Permits (Section 404)*. https://www.usace.army.mil/Missions/Civil-Works/Regulatory-Program-and-Permits/
 - U.S. EPA, *Permit Program Under CWA Section 404*. https://www.epa.gov/cwa-404/permit-program-under-cwa-section-404
+
+## Decision-Oriented Conclusion
+
+Treat **$60,000–$135,000 per 100 feet** as a planning-range midpoint for an urban non-contaminated site and **$180,000+ per 100 feet** as prudent where contamination, mitigation, or full individual permitting is likely. This range comes from the component build-up and composite scenario totals in the Analysis section above.
+
+Before design, decision-makers should:
+- run a USACE pre-application meeting to confirm permit path;
+- commission site-specific contamination sampling; and
+- decide up front whether this is a **dry amenity beach** or a **future swim beach**.
+
+The key risk to watch is not sand cost; it is regulatory and water-quality uncertainty, which can dominate both capex and schedule.
