@@ -2,7 +2,7 @@
 
 <!-- Managed by Maestro workflow contract. Update `workflow_contract.yaml` instead of editing this file directly. -->
 
-This project is managed by the **Maestro** orchestration system and uses **Squad** for multi-agent coordination.
+This project is managed by the **Maestro** orchestration system and uses provider-neutral Maestro agent profiles for coordination.
 
 ## Before Starting Work
 
@@ -14,27 +14,25 @@ If these files or directories exist, read them next:
 - `backlog/README.md` - project goals and success criteria
 - `backlog/data_sources.md` - known data sources and constraints
 - `backlog/tasks/` - discrete task definitions
-- `.squad/team.md` - roster and role assignments
-- `.squad/routing.md` - routing rules
-- `.squad/sprint.md` - ordered execution plan
-- `.squad/decisions.md` - shared context, evidence, and decisions
+- `.maestro/agent_plan.md` - repo-local Maestro agent routing plan, if present
+- `.maestro/task_plan.md` - repo-local execution plan, if present
+- `.maestro/decisions.md` - repo-local decision log, if present
 
 ## Work Conventions
 
 - **Branch naming:** `maestro/{phase}-{kebab-case-slug}`
-- **Commit messages:** Use one of these phase prefixes: `[Planner]`, `[Squad Init]`, `[Squad Review]`, `[Build]`, `[Validate]`, `[Closeout]`
-- **Status updates:** Update `STATUS.md` whenever you change the phase, objective, blockers, or next step. Keep a machine-readable `Next Action` field set to `Build`, `Validate`, `Closeout`, `Complete`, or `Human Blocked`. Use `Complete` only when every `.squad/sprint.md` task is complete.
-- **Decisions:** Log significant architectural, data, and validation decisions in `.squad/decisions.md`.
+- **Commit messages:** Use one of these phase prefixes: `[Planner]`, `[Task Review]`, `[Build]`, `[Validate]`, `[Closeout]`
+- **Status updates:** Update `STATUS.md` whenever you change the phase, objective, blockers, or next step. Keep a machine-readable `Next Action` field set to `Task Review`, `Build`, `Validate`, `Closeout`, `Complete`, or `Human Blocked`. Use `Complete` only when every planned task is complete.
+- **Decisions:** Log significant architectural, data, and validation decisions in `.maestro/decisions.md`.
 
 ## Phases
 
 This repo follows the Maestro lifecycle:
-1. **Planner** - Survey the existing repo, define the deliverable, and create the backlog contract.
-2. **Squad Init** - Bootstrap `.squad/`, define the team, and align responsibilities to the backlog.
-3. **Squad Review** - Tighten backlog tasks, surface risks, and turn the backlog into an execution plan.
-4. **Build** - Execute one or more independent implementation or analysis tasks from the sprint plan in a single session, maximizing squad parallelism.
-5. **Validate** - Run the right checks, capture evidence, and decide whether the loop advances or returns to build.
-6. **Closeout** - Refresh handoff artifacts and decide whether the project is complete, human-blocked, or returns to one explicit task.
+1. **Planner** - Survey the existing repo, define the deliverable, create the backlog contract, and select the project agent slate.
+2. **Task Review** - Tighten backlog tasks, surface risks, and turn the backlog into an execution plan.
+3. **Build** - Execute one or more independent implementation or analysis tasks from the plan in a single session.
+4. **Validate** - Run the right checks, capture evidence, and decide whether the loop advances or returns to build.
+5. **Closeout** - Refresh handoff artifacts and decide whether the project is complete, human-blocked, or returns to one explicit task.
 
 Legacy aliases still appear in older repos:
 
@@ -50,41 +48,35 @@ Legacy aliases still appear in older repos:
 - `backlog/data_sources.md` - source URLs/endpoints and availability status
 - `backlog/phases.md` - lifecycle breakdown aligned to Maestro phases
 - `backlog/tasks/` - one file per discrete task
+- `.maestro/agent_plan.md` - repo-local agent slate, responsibilities, routing rules, and handoff expectations
+- `.maestro/decisions.md` - decision log initialized if absent
 - `STATUS.md` - current objective updated to reflect the plan
 - `requirements.txt` - created or updated if additional Python packages are needed
 
-### Squad Init
-
-- `.squad/team.md` - full roster with role descriptions
-- `.squad/routing.md` - routing rules and ownership
-- `.squad/decisions.md` - decision log initialized and useful
-- `.squad/agents/*/charter.md` - one charter per agent
-- `STATUS.md` - updated to show the team is initialized and ready for `squad-review`
-
-### Squad Review
+### Task Review
 
 - `backlog/tasks/` - detailed, fully specified task files
-- `.squad/sprint.md` - ordered execution plan with ownership and dependencies
+- `.maestro/task_plan.md` - ordered execution plan with task IDs, recommended agent profile, dependencies, and status
 - `STATUS.md` - updated to show review is complete and the repo is ready for `build`
 
 ### Build
 
 - Implementation work that materially advances one or more explicit tasks from `backlog/tasks/` or dated `FEEDBACK.md` items; each task cited by its ID
 - `STATUS.md` - updated with progress, blockers, all task/feedback IDs worked, and machine-readable `Next Action`
-- `.squad/decisions.md` - updated with significant implementation decisions and the task/feedback ID behind any new artifact
+- `.maestro/decisions.md` - significant implementation decisions and task/feedback IDs
 
 ### Validate
 
 - Tests, lint, type checks, metrics, evals, or data integrity checks run when applicable
-- `.squad/validation_report.md` - commands/checks run, results, blocked checks, evidence, and pass/fail recommendation
+- `.maestro/validation_report.md` - commands/checks run, results, blocked checks, evidence, and pass/fail recommendation
 - `STATUS.md` - updated with pass/fail/blocked outcome and next recommended phase
-- `.squad/decisions.md` - updated with validation evidence and rationale
+- `.maestro/decisions.md` - validation evidence and rationale
 
 ### Closeout
 
 - `STATUS.md` - updated with closeout outcome, remaining blockers, and machine-readable `Next Action`
-- `.squad/review_report.md` - final review decision, evidence checked, risks, and explicit `Complete` only when every sprint task is complete, `Human Blocked`, or return-to-build decision with task/feedback ID
-- `.squad/decisions.md` - final closeout decisions, handoff notes, and task/feedback ID if returning to build
+- `.maestro/review_report.md` - final decision, evidence checked, risks, and explicit `Complete` only when every planned task is complete, `Human Blocked`, or return-to-build decision with task/feedback ID
+- `.maestro/decisions.md` - final closeout decisions, handoff notes, and task/feedback ID if returning to build
 - Human-facing docs refreshed enough for handoff
 
 ## Data Constraints
